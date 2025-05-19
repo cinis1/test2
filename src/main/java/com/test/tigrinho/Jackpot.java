@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Jackpot {
     @GetMapping(path = "/jackpot")
     public static String jackpot (){
+
         return "Jackpot!";
     }
 
